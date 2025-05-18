@@ -1,0 +1,22 @@
+{
+  "version": 2,
+  "dgSpecHash": "9lChBpAHZczmeIb+WThA3EqWdgbgoIwSFImv4K/BBr6fHE3L80KMjRYixOLGEUaKw0nRjF+vVNRPOHYs49a9Ww==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Aphiwe\\source\\repos\\PDFUnlockingApp\\PDFUnlockingApp\\PDFUnlockingApp.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Aphiwe\\.nuget\\packages\\bouncycastle.cryptography\\2.4.0\\bouncycastle.cryptography.2.4.0.nupkg.sha512",
+    "C:\\Users\\Aphiwe\\.nuget\\packages\\itextsharp\\5.5.13.4\\itextsharp.5.5.13.4.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'iTextSharp 5.5.13.4' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net8.0'. This package may not be fully compatible with your project.",
+      "libraryId": "iTextSharp",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    }
+  ]
+}
