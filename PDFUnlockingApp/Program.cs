@@ -1,9 +1,18 @@
-﻿using System;
+﻿using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Extensions.Logging;
 
 class Program
 {
     static void Main()
     {
+        var serviceProvider = new ServiceCollection()
+            .AddLogging(configure => configure.AddConsole())
+            .AddSingleton<PdfUnlockService>()
+            .BuildServiceProvider();
+
+        var logger = serviceProvider.GetRequiredService<ILogger<Program>>();
+        logger.LogInformation("PDF Unlocking App started.");
+
         var request = new PdfUnlockRequest
         {
             InputPath = @"C:\path\to\secured.pdf",
@@ -11,16 +20,16 @@ class Program
             Password = "your_password"
         };
 
-        IPdfUnlocker unlocker = new ITextSharpPdfUnlocker();
+        var unlockService = serviceProvider.GetRequiredService<PdfUnlockService>();
 
         try
         {
-            unlocker.Unlock(request);
-            Console.WriteLine("PDF unlocked successfully.");
+            unlockService.Unlock(request);
+            logger.LogInformation("PDF unlocked successfully.");
         }
         catch (Exception ex)
         {
-            Console.WriteLine($"Failed to unlock PDF: {ex.Message}");
+            logger.LogError($"Failed to unlock PDF: {ex.Message}");
         }
     }
 }

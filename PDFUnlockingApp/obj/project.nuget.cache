@@ -1,11 +1,27 @@
 {
   "version": 2,
-  "dgSpecHash": "9lChBpAHZczmeIb+WThA3EqWdgbgoIwSFImv4K/BBr6fHE3L80KMjRYixOLGEUaKw0nRjF+vVNRPOHYs49a9Ww==",
+  "dgSpecHash": "SdnUxQkCyvX2tTIzEQwjZdU35hcxTjVqG/IeZvWjI6+5thyPReT0WlVsr9wbTstMHjPlkXASw4xdLO3iIwNVug==",
   "success": true,
   "projectFilePath": "C:\\Users\\Aphiwe\\source\\repos\\PDFUnlockingApp\\PDFUnlockingApp\\PDFUnlockingApp.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Aphiwe\\.nuget\\packages\\bouncycastle.cryptography\\2.4.0\\bouncycastle.cryptography.2.4.0.nupkg.sha512",
-    "C:\\Users\\Aphiwe\\.nuget\\packages\\itextsharp\\5.5.13.4\\itextsharp.5.5.13.4.nupkg.sha512"
+    "C:\\Users\\Aphiwe\\.nuget\\packages\\itextsharp\\5.5.13.4\\itextsharp.5.5.13.4.nupkg.sha512",
+    "C:\\Users\\Aphiwe\\.nuget\\packages\\microsoft.extensions.configuration\\9.0.5\\microsoft.extensions.configuration.9.0.5.nupkg.sha512",
+    "C:\\Users\\Aphiwe\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\9.0.5\\microsoft.extensions.configuration.abstractions.9.0.5.nupkg.sha512",
+    "C:\\Users\\Aphiwe\\.nuget\\packages\\microsoft.extensions.configuration.binder\\9.0.5\\microsoft.extensions.configuration.binder.9.0.5.nupkg.sha512",
+    "C:\\Users\\Aphiwe\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\9.0.5\\microsoft.extensions.dependencyinjection.9.0.5.nupkg.sha512",
+    "C:\\Users\\Aphiwe\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\9.0.5\\microsoft.extensions.dependencyinjection.abstractions.9.0.5.nupkg.sha512",
+    "C:\\Users\\Aphiwe\\.nuget\\packages\\microsoft.extensions.logging\\9.0.5\\microsoft.extensions.logging.9.0.5.nupkg.sha512",
+    "C:\\Users\\Aphiwe\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\9.0.5\\microsoft.extensions.logging.abstractions.9.0.5.nupkg.sha512",
+    "C:\\Users\\Aphiwe\\.nuget\\packages\\microsoft.extensions.logging.configuration\\9.0.5\\microsoft.extensions.logging.configuration.9.0.5.nupkg.sha512",
+    "C:\\Users\\Aphiwe\\.nuget\\packages\\microsoft.extensions.logging.console\\9.0.5\\microsoft.extensions.logging.console.9.0.5.nupkg.sha512",
+    "C:\\Users\\Aphiwe\\.nuget\\packages\\microsoft.extensions.options\\9.0.5\\microsoft.extensions.options.9.0.5.nupkg.sha512",
+    "C:\\Users\\Aphiwe\\.nuget\\packages\\microsoft.extensions.options.configurationextensions\\9.0.5\\microsoft.extensions.options.configurationextensions.9.0.5.nupkg.sha512",
+    "C:\\Users\\Aphiwe\\.nuget\\packages\\microsoft.extensions.primitives\\9.0.5\\microsoft.extensions.primitives.9.0.5.nupkg.sha512",
+    "C:\\Users\\Aphiwe\\.nuget\\packages\\system.diagnostics.diagnosticsource\\9.0.5\\system.diagnostics.diagnosticsource.9.0.5.nupkg.sha512",
+    "C:\\Users\\Aphiwe\\.nuget\\packages\\system.io.pipelines\\9.0.5\\system.io.pipelines.9.0.5.nupkg.sha512",
+    "C:\\Users\\Aphiwe\\.nuget\\packages\\system.text.encodings.web\\9.0.5\\system.text.encodings.web.9.0.5.nupkg.sha512",
+    "C:\\Users\\Aphiwe\\.nuget\\packages\\system.text.json\\9.0.5\\system.text.json.9.0.5.nupkg.sha512"
   ],
   "logs": [
     {

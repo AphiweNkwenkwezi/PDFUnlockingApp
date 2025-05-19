@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PDFUnlockingApp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4d3a84375a5f09b7a36d42a6fd3daee09a297958")]
 [assembly: System.Reflection.AssemblyProductAttribute("PDFUnlockingApp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PDFUnlockingApp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
